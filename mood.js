@@ -28,7 +28,7 @@ for (let i = 0; i < 3; i++) {
 }
 
 function getMoodMessage(name, mood) {
-  let message = "Hey " + moodToday + "! ";
+  let message = "Hey " + name + "! ";
 
   if (mood === "happy") {
     message += "Keep smiling!";
@@ -36,7 +36,7 @@ function getMoodMessage(name, mood) {
     message += "You're doing your best. That matters.";
   }
 
-  return moodToday;
+  return message;
 }
 
 let finalMessage = getMoodMessage("Jordan", "stressed");
