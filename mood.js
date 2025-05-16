@@ -28,7 +28,7 @@ for (let i = 0; i < 3; i++) {
 }
 
 function getMoodMessage(name, mood) {
-  let message = "Hey " + userName + "! ";
+  let message = "Hey " + moodToday + "! ";
 
   if (mood === "happy") {
     message += "Keep smiling!";
