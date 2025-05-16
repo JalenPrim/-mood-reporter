@@ -24,11 +24,11 @@ function respondToMood(name, mood) {
 respondToMood(userName, moodToday);
 
 for (let i = 0; i < 0; i++) {
-  console.log("You've got this, " + __________ + "!");
+  console.log("You've got this, " + moodToday + "!");
 }
 
 function getMoodMessage(name, mood) {
-  let message = "Hey " + __________ + "! ";
+  let message = "Hey " + userName + "! ";
 
   if (mood === "happy") {
     message += "Keep smiling!";
@@ -36,9 +36,9 @@ function getMoodMessage(name, mood) {
     message += "You're doing your best. That matters.";
   }
 
-  return __________;
+  return moodToday;
 }
 
 let finalMessage = getMoodMessage("Jordan", "stressed");
-console.log(__________);
+console.log("It's ok things wil get better");
 
