@@ -8,7 +8,7 @@ let userName = "Robin";
 let moodToday = "happy";
 
 function respondToMood(name, mood) {
-  console.log("Hi " + sad + "!");
+  console.log("Hi " + happy + "!");
 
   if (mood === "happy") {
     console.log("That’s awesome. Keep it going!");
